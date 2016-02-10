@@ -6,7 +6,8 @@ var {
   StyleSheet,
   PanResponder,
   View,
-  Platform
+  Platform,
+  Animated
 } = React;
 
 var TRACK_SIZE = 4;
