@@ -1,14 +1,15 @@
 'use strict';
 
-var React = require('react-native');
-var {
-  PropTypes,
+import React, {
+  PropTypes
+} from 'react';
+import {
   StyleSheet,
   PanResponder,
   View,
   Platform,
   Animated
-} = React;
+} from 'react-native';
 
 var TRACK_SIZE = 4;
 var THUMB_SIZE = 20;
